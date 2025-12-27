@@ -1,0 +1,15 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/Do_An_1/ALU_AND_based/ALU_16bit_CG.v,1752401779,verilog,,D:/Do_An_1/ALU_AND_based/Adder.v,,ALU_16bit_and_gate,,,,,,,,
+D:/Do_An_1/ALU_AND_based/ALU_16bit_CG_tb.v,1752401763,verilog,,,,ALU_16bit_and_gate_tb,,,,,,,,
+D:/Do_An_1/ALU_AND_based/ALU_AND_based.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+D:/Do_An_1/ALU_AND_based/Adder.v,1749538183,verilog,,D:/Do_An_1/ALU_AND_based/CLA.v,,Adder_16bit,,,,,,,,
+D:/Do_An_1/ALU_AND_based/CLA.v,1749538303,verilog,,D:/Do_An_1/ALU_AND_based/Comparator.v,,CLA_16bit;CLA_4bit,,,,,,,,
+D:/Do_An_1/ALU_AND_based/Comparator.v,1750940574,verilog,,D:/Do_An_1/ALU_AND_based/Divider.v,,Comparator_16bit,,,,,,,,
+D:/Do_An_1/ALU_AND_based/Divider.v,1752390293,verilog,,D:/Do_An_1/ALU_AND_based/Multiplier.v,,Divider_16bit,,,,,,,,
+D:/Do_An_1/ALU_AND_based/Multiplier.v,1749538537,verilog,,D:/Do_An_1/ALU_AND_based/Rotate.v,,Multiplier_16bit,,,,,,,,
+D:/Do_An_1/ALU_AND_based/Rotate.v,1751380240,verilog,,D:/Do_An_1/ALU_AND_based/Shifter.v,,Rotate16_Left;Rotate16_Right,,,,,,,,
+D:/Do_An_1/ALU_AND_based/Shifter.v,1751379071,verilog,,D:/Do_An_1/ALU_AND_based/Subtractor.v,,Shifter16_Left;Shifter16_Right,,,,,,,,
+D:/Do_An_1/ALU_AND_based/Subtractor.v,1749538493,verilog,,D:/Do_An_1/ALU_AND_based/ALU_16bit_CG_tb.v,,Subtractor_16bit,,,,,,,,

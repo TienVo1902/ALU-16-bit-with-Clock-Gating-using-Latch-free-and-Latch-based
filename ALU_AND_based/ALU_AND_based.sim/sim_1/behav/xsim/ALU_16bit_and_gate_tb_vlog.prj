@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ALU_16bit_CG.v" \
+"../../../../Adder.v" \
+"../../../../CLA.v" \
+"../../../../Comparator.v" \
+"../../../../Divider.v" \
+"../../../../Multiplier.v" \
+"../../../../Rotate.v" \
+"../../../../Shifter.v" \
+"../../../../Subtractor.v" \
+"../../../../ALU_16bit_CG_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
