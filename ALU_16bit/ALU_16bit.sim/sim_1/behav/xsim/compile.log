@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/ALU_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/CLA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLA_4bit
+INFO: [VRFC 10-311] analyzing module CLA_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/Comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Comparator_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Divider_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/Multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplier_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/Rotate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rotate16_Left
+INFO: [VRFC 10-311] analyzing module Rotate16_Right
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/Shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter16_Left
+INFO: [VRFC 10-311] analyzing module Shifter16_Right
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/ALU_16bit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_16bit_tb

@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Jul 29 18:18:07 2025
+# Process ID: 6888
+# Current directory: D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11056 D:\22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat\Work\ALU_16bit\ALU_16bit.xpr
+# Log file: D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/vivado.log
+# Journal file: D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit\vivado.jou
+# Running On        :LAPTOP-CKUAUH15
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency     :2419 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :21229 MB
+# Swap memory       :1342 MB
+# Total Virtual     :22571 MB
+# Available Virtual :10588 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/ALU_16bit.xpr
+update_compile_order -fileset sources_1
+% get_files
+archive_project D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit.xpr.zip -temp_dir D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15 -force -include_local_ip_cache
+launch_simulation
+source ALU_16bit_tb.tcl
+run 10 us
+close_sim
+close_project
+open_project D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit_CGating/ALU_16bit_CG.xpr
+update_compile_order -fileset sources_1
+archive_project D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit_CG.xpr.zip -temp_dir D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15 -force -include_local_ip_cache
+close_project
+open_project D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/ALU_AND_based.xpr
+update_compile_order -fileset sources_1
+archive_project D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based.xpr.zip -temp_dir D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15 -force -include_local_ip_cache

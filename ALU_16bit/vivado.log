@@ -1,0 +1,364 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Jul 29 18:18:07 2025
+# Process ID: 6888
+# Current directory: D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11056 D:\22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat\Work\ALU_16bit\ALU_16bit.xpr
+# Log file: D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/vivado.log
+# Journal file: D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit\vivado.jou
+# Running On        :LAPTOP-CKUAUH15
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency     :2419 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :21229 MB
+# Swap memory       :1342 MB
+# Total Virtual     :22571 MB
+# Available Virtual :10588 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/ALU_16bit.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/ALU_16bit.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1533.258 ; gain = 390.480
+update_compile_order -fileset sources_1
+% get_files
+invalid command name "%"
+archive_project D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit.xpr.zip -temp_dir D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15 -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15' for archiving project
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/ALU_16bit.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15/PrjAr/_X_'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15/PrjAr/_X_/ALU_16bit.cache/ip 
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU_16bit_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/ALU_16bit.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU_16bit_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/ALU_16bit.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj ALU_16bit_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/ALU_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/CLA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLA_4bit
+INFO: [VRFC 10-311] analyzing module CLA_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/Comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Comparator_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Divider_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/Multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplier_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/Rotate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rotate16_Left
+INFO: [VRFC 10-311] analyzing module Rotate16_Right
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/Shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shifter16_Left
+INFO: [VRFC 10-311] analyzing module Shifter16_Right
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/Subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Do_An_1/ALU_16bit/ALU_16bit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_16bit_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/ALU_16bit.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_16bit_tb_behav xil_defaultlib.ALU_16bit_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_16bit_tb_behav xil_defaultlib.ALU_16bit_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.CLA_4bit
+Compiling module xil_defaultlib.CLA_16bit
+Compiling module xil_defaultlib.Adder_16bit
+Compiling module xil_defaultlib.Subtractor_16bit
+Compiling module xil_defaultlib.Multiplier_16bit
+Compiling module xil_defaultlib.Divider_16bit
+Compiling module xil_defaultlib.Comparator_16bit
+Compiling module xil_defaultlib.Shifter16_Left
+Compiling module xil_defaultlib.Shifter16_Right
+Compiling module xil_defaultlib.Rotate16_Left
+Compiling module xil_defaultlib.Rotate16_Right
+Compiling module xil_defaultlib.ALU_16bit
+Compiling module xil_defaultlib.ALU_16bit_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_16bit_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/ALU_16bit.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_16bit_tb_behav -key {Behavioral:sim_1:Functional:ALU_16bit_tb} -tclbatch {ALU_16bit_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU_16bit_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time  op   A        B      Z_high    Z_low     valid
+0  0000  0  0  0     0      0
+50000  0000  64  19  0     7d      1
+70000  0000  64  19  0     7d      0
+110000  0000  ff9c  19  ffff     ffb5      1
+130000  0000  ff9c  19  ffff     ffb5      0
+170000  0000  ff9c  ffe7  ffff     ff83      1
+190000  0000  ff9c  ffe7  ffff     ff83      0
+230000  0000  7fff  1  ffff     8000      1
+250000  0000  7fff  1  ffff     8000      0
+290000  0001  fa  32  0     c8      1
+310000  0001  fa  32  0     c8      0
+350000  0001  ff06  32  ffff     fed4      1
+370000  0001  ff06  32  ffff     fed4      0
+410000  0001  ff06  ffce  ffff     ff38      1
+430000  0001  ff06  ffce  ffff     ff38      0
+470000  0001  8000  1  0     7fff      1
+490000  0001  8000  1  0     7fff      0
+530000  0010  96  78  0     7fff      0
+710000  0010  96  78  0     4650      1
+730000  0010  ff6a  78  0     4650      0
+910000  0010  ff6a  78  ffff     b9b0      1
+930000  0010  c568  d120  ffff     b9b0      0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_16bit_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1613.547 ; gain = 24.711
+run 10 us
+1110000  0010  c568  d120  aba     9500      1
+1130000  0011  64  2  aba     9500      0
+1490000  0011  64  2  0     32      1
+1510000  0011  64  3  0     32      0
+1870000  0011  64  3  1     21      1
+1890000  0011  64  fffd  1     21      0
+2250000  0011  64  fffd  1     ffdf      1
+2270000  0011  ff9c  fffd  1     ffdf      0
+2630000  0011  ff9c  fffd  ffff     21      1
+2650000  0011  f  0  xxxx     xxxx      1
+2670000  0011  f  0  xxxx     xxxx      0
+2690000  0100  3039  d8f0  0     1      1
+2710000  0100  3039  d8f0  0     1      0
+2750000  0100  1f4  1f4  0     0      1
+2770000  0100  1f4  1f4  0     0      0
+2810000  0100  cfc7  2710  0     ffff      1
+2830000  0100  cfc7  2710  0     ffff      0
+2870000  0101  fff  f0f  0     f0f0      1
+2890000  0101  fff  f0f  0     f0f0      0
+2930000  0110  fff  f0f  0     f0f      1
+2950000  0110  fff  f0f  0     f0f      0
+2990000  0111  fff  f0f  0     f000      1
+3010000  0111  fff  f0f  0     f000      0
+3050000  1000  fff  f0f  0     fff      1
+3070000  1000  fff  f0f  0     fff      0
+3110000  1001  fff  f0f  0     f0      1
+3130000  1001  fff  f0f  0     f0      0
+3170000  1010  f0f  0  0     f0f      1
+3190000  1010  f0f  0  0     f0f      0
+3230000  1010  f0f  1  0     1e1e      1
+3250000  1010  f0f  1  0     1e1e      0
+3290000  1010  f0f  4  0     f0f0      1
+3310000  1010  f0f  4  0     f0f0      0
+3350000  1010  f0f  8  0     f00      1
+3370000  1010  f0f  8  0     f00      0
+3410000  1010  f0f  f  0     8000      1
+3430000  1010  f0f  f  0     8000      0
+3470000  1011  f0f  0  0     f0f      1
+3490000  1011  f0f  0  0     f0f      0
+3530000  1011  f0f  1  0     787      1
+3550000  1011  f0f  1  0     787      0
+3590000  1011  f0f  4  0     f0      1
+3610000  1011  f0f  4  0     f0      0
+3650000  1011  f0f  8  0     f      1
+3670000  1011  f0f  8  0     f      0
+3710000  1011  f0f  f  0     0      1
+3730000  1011  f0f  f  0     0      0
+3770000  1100  f0f  0  0     f0f      1
+3790000  1100  f0f  0  0     f0f      0
+3830000  1100  f0f  1  0     1e1e      1
+3850000  1100  f0f  1  0     1e1e      0
+3890000  1100  f0f  4  0     f0f0      1
+3910000  1100  f0f  4  0     f0f0      0
+3950000  1100  f0f  8  0     f0f      1
+3970000  1100  f0f  8  0     f0f      0
+4010000  1100  f0f  f  0     8787      1
+4030000  1100  f0f  f  0     8787      0
+4070000  1101  f0f  0  0     f0f      1
+4090000  1101  f0f  0  0     f0f      0
+4130000  1101  f0f  1  0     8787      1
+4150000  1101  f0f  1  0     8787      0
+4190000  1101  f0f  4  0     f0f0      1
+4210000  1101  f0f  4  0     f0f0      0
+4250000  1101  f0f  8  0     f0f      1
+4270000  1101  f0f  8  0     f0f      0
+4310000  1101  f0f  f  0     1e1e      1
+4330000  1101  f0f  f  0     1e1e      0
+$finish called at time : 4370 ns : File "D:/Do_An_1/ALU_16bit/ALU_16bit_tb.v" Line 157
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit_CGating/ALU_16bit_CG.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit_CGating/ALU_16bit_CG.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+update_compile_order -fileset sources_1
+archive_project D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit_CG.xpr.zip -temp_dir D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15 -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15' for archiving project
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit_CGating/ALU_16bit_CG.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15/PrjAr/_X_'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15/PrjAr/_X_/ALU_16bit_CG.cache/ip 
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit_CG.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+close_project
+open_project D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/ALU_AND_based.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Do_An_1/ALU_AND_based' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/ALU_AND_based.gen/sources_1'.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/Adder.v'; using path 'D:/Do_An_1/ALU_AND_based/Adder.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/CLA.v'; using path 'D:/Do_An_1/ALU_AND_based/CLA.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/Comparator.v'; using path 'D:/Do_An_1/ALU_AND_based/Comparator.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/Divider.v'; using path 'D:/Do_An_1/ALU_AND_based/Divider.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/Multiplier.v'; using path 'D:/Do_An_1/ALU_AND_based/Multiplier.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/Rotate.v'; using path 'D:/Do_An_1/ALU_AND_based/Rotate.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/Shifter.v'; using path 'D:/Do_An_1/ALU_AND_based/Shifter.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/Subtractor.v'; using path 'D:/Do_An_1/ALU_AND_based/Subtractor.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/ALU_16bit_CG.v'; using path 'D:/Do_An_1/ALU_AND_based/ALU_16bit_CG.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/ALU_16bit_CG_tb.v'; using path 'D:/Do_An_1/ALU_AND_based/ALU_16bit_CG_tb.v' instead.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+update_compile_order -fileset sources_1
+archive_project D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based.xpr.zip -temp_dir D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15 -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15' for archiving project
+INFO: [Project 1-313] Project file moved from 'D:/Do_An_1/ALU_AND_based' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/ALU_AND_based.gen/sources_1'.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/Adder.v'; using path 'D:/Do_An_1/ALU_AND_based/Adder.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/CLA.v'; using path 'D:/Do_An_1/ALU_AND_based/CLA.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/Comparator.v'; using path 'D:/Do_An_1/ALU_AND_based/Comparator.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/Divider.v'; using path 'D:/Do_An_1/ALU_AND_based/Divider.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/Multiplier.v'; using path 'D:/Do_An_1/ALU_AND_based/Multiplier.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/Rotate.v'; using path 'D:/Do_An_1/ALU_AND_based/Rotate.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/Shifter.v'; using path 'D:/Do_An_1/ALU_AND_based/Shifter.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/Subtractor.v'; using path 'D:/Do_An_1/ALU_AND_based/Subtractor.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/ALU_16bit_CG.v'; using path 'D:/Do_An_1/ALU_AND_based/ALU_16bit_CG.v' instead.
+WARNING: [Project 1-312] File not found as 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based/ALU_16bit_CG_tb.v'; using path 'D:/Do_An_1/ALU_AND_based/ALU_16bit_CG_tb.v' instead.
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15/PrjAr/_X_'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_16bit/.Xil/Vivado-6888-LAPTOP-CKUAUH15/PrjAr/_X_/ALU_AND_based.cache/ip 
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (D:/22161081_Vo-Van-Tien_22160147_Phan-Tien-Dat/Work/ALU_AND_based.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 29 18:31:33 2025...
