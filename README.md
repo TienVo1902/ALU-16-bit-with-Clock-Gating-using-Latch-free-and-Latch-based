@@ -21,7 +21,6 @@ The project evaluates and compares three design variations to analyze power effi
 -   `ALU_16bit/`: Source code for the **Original ALU** (Baseline design, no Clock Gating).
 -   `ALU_16bit_CGating/`: Source code for the ALU with **Latch-based Clock Gating (ICG)**.
 -   `ALU_AND_based/`: Source code for the ALU with **AND-based Clock Gating**.
--   `Testbench/`: Simulation files and waveforms (if applicable).
 
 ## 🛠 System Architecture
 The ALU is partitioned into distinct functional blocks to facilitate clock gating:
